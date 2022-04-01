@@ -19,7 +19,7 @@ function App() {
     setTimeout(updateDate, 1000);
   }, []);
 
-  const [dateToKickOff, setDateToKickOff] = useState('');
+  const [dateToKickOff, setDateToKickOff] = useState(' ');
 
   useEffect(() => {
     updateDate();
