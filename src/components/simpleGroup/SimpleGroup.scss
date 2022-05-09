@@ -1,0 +1,41 @@
+.SimpleGroup {
+  background-color: white;
+  font-weight: 900;
+  width: 140px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  outline: 3px solid rgb(191, 167, 117);
+
+  &_titleArea {
+    color: white;
+    background-color: #9a1032;
+    height: 30px;
+  }
+
+  &_teamsArea {
+    align-content: center;
+  }
+
+  &_title {
+    vertical-align: sub;
+    text-align: center;
+  }
+
+  &_team {
+    outline: solid 2px #9a1032;
+    height: 30px;
+    width: 120px;
+    margin: 8px auto;
+  }
+
+  &_teamName {
+    vertical-align: sub;
+    color: #9a1032;
+  }
+
+  &_teamFlag {
+    width: 33.33%;
+    float: right;
+    outline: 2px solid #9a1032;
+  }
+}
