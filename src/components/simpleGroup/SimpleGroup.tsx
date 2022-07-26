@@ -1,11 +1,11 @@
 import './SimpleGroup.scss';
 
-interface Props {
+type SimpleGroupProps = {
   name: string;
-  teams: { name: string; flag: string }[];
-}
+  teams: Array<{ name: string; flag: string }>;
+};
 
-const SimpleGroup = ({ name, teams }: Props) => {
+const SimpleGroup = ({ name, teams }: SimpleGroupProps) => {
   return (
     <div className="SimpleGroup">
       <div className="SimpleGroup_titleArea">
