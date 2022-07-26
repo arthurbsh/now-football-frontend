@@ -11,10 +11,13 @@ const groups = [
   {
     name: 'B',
     teams: [
-      { name: 'ENG', flag: 'https://media.api-sports.io/flags/gb.svg' },
+      { name: 'ENG', flag: '/england-flag.svg' },
       { name: 'IRN', flag: 'https://media.api-sports.io/flags/ir.svg' },
       { name: 'USA', flag: 'https://media.api-sports.io/flags/us.svg' },
-      { name: 'EUR', flag: 'https://media.api-sports.io/flags/eu.svg' },
+      {
+        name: 'WLS',
+        flag: '/wales-flag.svg',
+      },
     ],
   },
   {
@@ -30,7 +33,7 @@ const groups = [
     name: 'D',
     teams: [
       { name: 'FRA', flag: 'https://media.api-sports.io/flags/fr.svg' },
-      { name: 'ICP 1', flag: 'https://media.api-sports.io/flags/eu.svg' },
+      { name: 'AUS', flag: 'https://media.api-sports.io/flags/au.svg' },
       { name: 'DEN', flag: 'https://media.api-sports.io/flags/dk.svg' },
       { name: 'TUN', flag: 'https://media.api-sports.io/flags/tn.svg' },
     ],
@@ -39,7 +42,7 @@ const groups = [
     name: 'E',
     teams: [
       { name: 'ESP', flag: 'https://media.api-sports.io/flags/es.svg' },
-      { name: 'ICP 2', flag: 'https://media.api-sports.io/flags/eu.svg' },
+      { name: 'CRI', flag: 'https://media.api-sports.io/flags/cr.svg' },
       { name: 'GER', flag: 'https://media.api-sports.io/flags/de.svg' },
       { name: 'JPN', flag: 'https://media.api-sports.io/flags/jp.svg' },
     ],
