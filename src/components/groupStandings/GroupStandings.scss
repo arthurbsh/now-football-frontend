@@ -1,0 +1,48 @@
+.GroupStandings {
+  text-align: center;
+}
+
+.flag {
+  max-width: 30px;
+  outline: 1px solid lightgray;
+  vertical-align: middle;
+}
+
+.col-team-name {
+  text-align: left;
+}
+
+.td-flag {
+  vertical-align: middle;
+}
+
+.td-rank {
+  width: 2px;
+}
+
+.green {
+  background-color: rgb(101, 255, 114);
+}
+
+.red {
+  background-color: rgb(255, 129, 129);
+}
+
+img {
+}
+
+table {
+  border: 1px solid black;
+  border-spacing: 0;
+}
+
+tr {
+  height: 40px;
+}
+
+th,
+tr,
+td {
+  border: none;
+  border-bottom: 1px solid black;
+}
